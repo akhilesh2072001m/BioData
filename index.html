@@ -28,10 +28,12 @@
     <div id="header">
       <div class="container">
         <div class="header-text">
-          <p>Web Designer</p>
+          <p>Web Developer</p>
           <h1>Hi, I'am <span>Akhilesh </span> <br />kumar From UP</h1>
         </div>
-        <a href="/Resume Akhilesh 2025.pdf" download><img src="/rlogo.jpg"  class="resume_logo" /></a> &nbsp My Resume
+        <a href="/Resume Akhilesh 2025.pdf" download >
+          <p id="logo-text">Download CV</p>
+        </a>
       </div>
     </div>
     <!-- //------------------------------About section------------------// -->
@@ -151,7 +153,7 @@
       <div class="images">
         <div class="image">
           <marquee
-            ><img
+            onmouseover="this.stop();" onmouseout="this.start();" scrollamount="15"><img
               src="CSS 1738516307284-certificate.png"
               alt="" />
             <img
@@ -167,6 +169,7 @@
     <!-- //---------------------Certification End--------Project---------------------// -->
 
     <!-- //---------------------Contuct Start--------Project---------------------// -->
+    <footer>
     <div id="footer">
       <div class="left">
         <div class="item1">
@@ -203,9 +206,10 @@
     </div>
     <center>
       <hr />
-      <p class="condition">© 2025 Company, Inc. All rights reserved.</p>
+      <p height="20px" class="condition">© 2025 Company, Inc. All rights reserved.</p>
       <hr />
     </center>
+    </footer>
 
     <!-- //---------------------Contuct End--------Project---------------------// -->
   </body>

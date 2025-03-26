@@ -123,8 +123,18 @@ nav ul li a:hover::after {
 
 }
 
-.resume_logo {
-    width: 40px;
+.container a {
+    text-decoration: none;
+}
+
+#logo-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #898f10;
+}
+
+#logo-text:hover {
+    color: #c7d01c;
 }
 
 /* -------------------about us------------------------------- */
@@ -266,7 +276,11 @@ nav ul li a:hover::after {
 
 /* -------------Certification-Start---------- */
 .image {
+    margin-top: 30px;
     display: flex;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
 }
 
 .image img {
@@ -335,6 +349,10 @@ nav ul li a:hover::after {
     padding: 0px;
 }
 
-.condition {}
+footer {
+    margin-top: 300px;
+    position: absolute;
+    z-index: -2;
+}
 
 /* -------------Footer End----------- */
